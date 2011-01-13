@@ -8,7 +8,7 @@ env
 echo "------------- running: rvm info"
 rvm info
 echo "------------- running: . \"$HOME/.rvm/environments/$rvm_interpreter\""
-. "$HOME/.rvm/environments/$rvm_interpreter"
+. "$HOME/.rvm/environments/$rvm_ruby_string@ccrb_rvm_test"
 echo "------------- running: env"
 env
 echo "------------- running: rvm info"
